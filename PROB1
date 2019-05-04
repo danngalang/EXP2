@@ -9,9 +9,9 @@ int main()
 
 	char P;
 	int h, b;
-	cout << "Package A: 995 per month for 10 hours. P20/hour for succeeding hours." << endl;
-	cout << "Package B: 1495 per month for 20 hours. P10/hour for succeeding hours." << endl;
-	cout << "Package C: 1995 per month, unlimited access are provided." << endl;
+	cout << "Package A: P995 per month for 10 hours. P20/hour for succeeding hours." << endl;
+	cout << "Package B: P1495 per month for 20 hours. P10/hour for succeeding hours." << endl;
+	cout << "Package C: P1995 per month, unlimited access are provided." << endl;
 	cout<<"Enter the letter of your Package: (EX. A/a) " << endl;
 	cin>>P;
 	cout<<"Enter number of Hours: " << endl;
