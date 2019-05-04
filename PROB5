@@ -11,6 +11,8 @@ int main()
 	multi = 1;
 	nm = 1;
 	
+	cout<< "Counting..." << endl;
+	
 	while(nm <= 30)
 	{
 		cout<<nm;
@@ -26,7 +28,7 @@ int main()
 		
 		
 	}
-  
+	
 	_getch ();
 	return 0;
 }
