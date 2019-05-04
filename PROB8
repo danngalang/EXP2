@@ -1,0 +1,20 @@
+//Problem 8
+#include<iostream>
+#include<conio.h>
+using namespace std;
+int main(){
+	
+	int q;
+	cout<<"Enter a number: "; 
+	cin>>q;
+	cout<< "Multiplication table of " << q << ": " <<endl;
+
+	for(int z=1;z<=10;z++)
+	{
+	
+		cout<<z<<" * "<<q<<" = "<< (z*q) <<endl;
+	}
+	
+	_getch();
+	return 0;
+}
