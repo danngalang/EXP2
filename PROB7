@@ -1,0 +1,30 @@
+//Prob7
+#include<iostream>
+#include<conio.h>
+using namespace std;
+int main()
+{
+	
+	int a, s;
+	
+	cout<<"ENTER a number: "; cin>>a;
+	
+	while(a > 0)
+	{
+	s = 0;
+	
+	for(int z=1; z<=a; z++){
+		s = s + z;
+	}
+	
+	cout<<"Your sum from 1 to "<< a <<" is: "<< s <<endl;
+	
+	cout<<"ENTER a number: "; cin>> a;
+	}
+	
+	cout<<"Thank you!";
+	
+	_getch();
+	return 0;
+	
+}
