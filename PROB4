@@ -1,0 +1,38 @@
+//PROBLEM 4
+#include<iostream>
+#include<conio.h>
+using namespace std;
+int main()
+{
+
+	int Q, W, E, A;
+	
+	cout<<"Enter value of 1st number: "; cin>>Q;
+	cout<<"Enter value of 2nd number: "; cin>>W;
+	cout<<"Enter value of 3rd number: "; cin>>E;
+
+	
+	
+	if(Q > W)
+	{
+		A = Q;
+	}
+	else if(W > Q)
+	{
+		A = W;
+	}
+	else
+	{
+		A = E;
+	}
+
+	if(A > E)
+	{
+		A = A;
+	}
+	
+	cout<<"The LARGEST of the three numbers is: "<<A;
+	
+	_getch();
+	return 0;
+}
