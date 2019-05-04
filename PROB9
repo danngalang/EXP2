@@ -22,6 +22,21 @@ int main()
 		cout << endl;
 	}
 	
+	cout<<" " << endl;
+	cout<<"How many rows: "; cin>> a;
+	cout<<"How many columns: "; cin>> s;
+	
+	for(int d=1; d<=a; d++)
+	{
+		cout<<" "<<endl;
+		
+    for(int f=1; f < s; f++)
+		{
+			cout<<"*";
+		}
+		cout << endl;
+	}
+	
 	_getch();
 	return 0;
 }
