@@ -1,17 +1,17 @@
 //PROBLEM 4
 #include<iostream>
 #include<conio.h>
-
 using namespace std;
-
-int main()
-{
+int main(){
 
 	int Q, W, E, A;
 	
 	cout<<"Enter value of 1st number: "; cin>>Q;
 	cout<<"Enter value of 2nd number: "; cin>>W;
 	cout<<"Enter value of 3rd number: "; cin>>E;
+	cout<<" "<< endl;
+
+	
 	
 	if(Q > W)
 	{
