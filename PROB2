@@ -1,0 +1,35 @@
+//Water
+#include<iostream>
+#include <conio.h>
+
+using namespace std;
+
+int main()
+{
+	
+	int Pgallon, Cgallon;
+	float B, bill, Chrg, LC, UNP;
+	
+	Chrg = 1.10;
+	LC = 20;
+	D = 35;
+	
+	bill = D + (Cgallon - Pgallon) * Chrg;
+	
+	cout<<"Enter the previous meter readings (in gallons) last month: "; 
+	cin>>Pgallon;
+	cout<<"Enter the previous meter readings (in gallons) this month: "; 
+	cin>>Cgallon;
+	cout << "Enter your unpaid balance: ";
+	cin >> UNP;
+	
+	if(UNP > 0){
+		bill = bill + LC;
+	}
+
+	
+	cout<<"Your total water bill is: Php "<<bill;
+	
+	_getch();
+	return 0;
+}
