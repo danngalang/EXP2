@@ -1,0 +1,32 @@
+#include<iostream>
+#include<conio.h>
+
+using namespace std;
+
+int main()
+{
+
+	int nm, multi;
+	
+	multi = 1;
+	nm = 1;
+	
+	while(nm <= 30)
+	{
+		cout<<nm;
+		nm = nm + multi;
+		
+		if(nm <= 30)
+		{
+			cout<<",";
+		}
+		if(nm >= 10){
+			multi = 2;
+		}
+		
+		
+	}
+  
+	_getch ();
+	return 0;
+}
