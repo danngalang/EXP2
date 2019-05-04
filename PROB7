@@ -18,8 +18,8 @@ int main()
 	}
 	
 	cout<<"Your sum from 1 to "<< a <<" is: "<< s <<endl;
-	
 	cout<<"ENTER a number: "; cin>> a;
+	
 	}
 	
 	cout<<"Thank you!";
